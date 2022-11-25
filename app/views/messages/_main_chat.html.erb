@@ -1,0 +1,52 @@
+<div class="main_chat">
+  <div class="top_main_chat">
+    <div class="currentroom">
+      currentroom
+    </div>
+    <div class="closeroom-btn-container">
+      <%= link_to 'チャットを終了する', '#', class: "closeroom-btn"%>
+    </div>
+  </div>
+  <div class="messages">
+    <div class="message">
+      <div class="message-head">
+        <div class="message-sender">
+          Tom
+        </div>
+        <div class="message-time">
+          日時
+        </div>
+      </div>
+      <div class="message-body">
+        <div class="message-text">こんにちは
+        </div>
+      </div>
+    </div>
+    <div class="message">
+      <div class="message-head">
+        <div class="message-sender">
+          Tom
+        </div>
+        <div class="message-time">
+          日時
+        </div>
+      </div>
+      <div class="message-body">
+        <div class="message-text">こんにちは
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form">
+    <div class="form-input">
+      <input class="form-message" placeholder= "type a message">
+      <%# inputタグにtypeを指定しない場合、
+          デフォルトでtype="text"が割り当てられます。 %>
+      <label class="form-image">
+        <span class="image-file">画像</span>
+        <input type="file" class="hidden">
+      </label>
+    </div>
+    <input class="form-submit" type="submit" value="送信">
+  </div>
+</div>
