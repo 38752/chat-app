@@ -111,22 +111,22 @@
   /* border: 1px solid #253141; */
 }
 
-.message-head {
+.upper-message {
   padding: 10px 0;
   display: flex;
 }
 
-.message-sender {
+.message-user {
   margin-right: 10px;
   font-size: 16px;
   color: #434a54;
 }
 
-.message-time {
+.message-date {
   font-size: 12px;
   color: #999;
 }
-.message-text {
+.message-content {
   font-size: 14px;
   color: #434a54;
   word-break: break-all;
