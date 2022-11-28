@@ -43,13 +43,18 @@
 }
 
 .room {
-  padding: 20px 0 40px;
+  padding: 20px 10px 40px;
 }
-.room-link {
+.room-link a {
+  padding: 20px 0 40px;
   color: white;
   text-decoration: none;
 }
 
+.room-name a{
+  color: white;
+  text-decoration: none;
+}
 /* ********** */
 /* indexメイン */
 .main_chat {
